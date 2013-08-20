@@ -1,0 +1,7 @@
+<p> Editing this book:</p>
+<form method="post" action="/save_book/<%= @book.id %>">
+	<input type="text" name="book_name" value="<%= @book.name %>">
+	<input type="text" name="book_genre" value="<%= @book.genre %>">
+	<button>Save Book</button>
+</form>
+
